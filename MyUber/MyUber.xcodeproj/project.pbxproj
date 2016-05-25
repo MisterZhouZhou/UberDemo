@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6408BF11CEED00F00033A74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408BF01CEED00F00033A74 /* main.m */; };
+		A6408BF41CEED00F00033A74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408BF31CEED00F00033A74 /* AppDelegate.m */; };
+		A6408BF71CEED00F00033A74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408BF61CEED00F00033A74 /* ViewController.m */; };
+		A6408BFA1CEED00F00033A74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6408BF81CEED00F00033A74 /* Main.storyboard */; };
+		A6408BFC1CEED00F00033A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6408BFB1CEED00F00033A74 /* Assets.xcassets */; };
+		A6408BFF1CEED00F00033A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6408BFD1CEED00F00033A74 /* LaunchScreen.storyboard */; };
+		A6408C0D1CEED9E300033A74 /* UberLoginWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408C0C1CEED9E300033A74 /* UberLoginWebViewController.m */; };
+		A6408C101CEED9EB00033A74 /* UberAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408C0F1CEED9EB00033A74 /* UberAPI.m */; };
+		A6408C1D1CEEFB8C00033A74 /* UberActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408C121CEEFB8C00033A74 /* UberActivity.m */; };
+		A6408C1E1CEEFB8C00033A74 /* UberPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408C141CEEFB8C00033A74 /* UberPrice.m */; };
+		A6408C1F1CEEFB8C00033A74 /* UberProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408C161CEEFB8C00033A74 /* UberProduct.m */; };
+		A6408C201CEEFB8C00033A74 /* UberProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408C181CEEFB8C00033A74 /* UberProfile.m */; };
+		A6408C211CEEFB8C00033A74 /* UberPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408C1A1CEEFB8C00033A74 /* UberPromotion.m */; };
+		A6408C221CEEFB8C00033A74 /* UberTime.m in Sources */ = {isa = PBXBuildFile; fileRef = A6408C1C1CEEFB8C00033A74 /* UberTime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6408BEC1CEED00F00033A74 /* MyUber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6408BF01CEED00F00033A74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6408BF21CEED00F00033A74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6408BF31CEED00F00033A74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6408BF51CEED00F00033A74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6408BF61CEED00F00033A74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6408BF91CEED00F00033A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6408BFB1CEED00F00033A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6408BFE1CEED00F00033A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6408C001CEED00F00033A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6408C0B1CEED9E300033A74 /* UberLoginWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberLoginWebViewController.h; sourceTree = "<group>"; };
+		A6408C0C1CEED9E300033A74 /* UberLoginWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberLoginWebViewController.m; sourceTree = "<group>"; };
+		A6408C0E1CEED9EB00033A74 /* UberAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberAPI.h; sourceTree = "<group>"; };
+		A6408C0F1CEED9EB00033A74 /* UberAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberAPI.m; sourceTree = "<group>"; };
+		A6408C111CEEFB8C00033A74 /* UberActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberActivity.h; sourceTree = "<group>"; };
+		A6408C121CEEFB8C00033A74 /* UberActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberActivity.m; sourceTree = "<group>"; };
+		A6408C131CEEFB8C00033A74 /* UberPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberPrice.h; sourceTree = "<group>"; };
+		A6408C141CEEFB8C00033A74 /* UberPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberPrice.m; sourceTree = "<group>"; };
+		A6408C151CEEFB8C00033A74 /* UberProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberProduct.h; sourceTree = "<group>"; };
+		A6408C161CEEFB8C00033A74 /* UberProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberProduct.m; sourceTree = "<group>"; };
+		A6408C171CEEFB8C00033A74 /* UberProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberProfile.h; sourceTree = "<group>"; };
+		A6408C181CEEFB8C00033A74 /* UberProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberProfile.m; sourceTree = "<group>"; };
+		A6408C191CEEFB8C00033A74 /* UberPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberPromotion.h; sourceTree = "<group>"; };
+		A6408C1A1CEEFB8C00033A74 /* UberPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberPromotion.m; sourceTree = "<group>"; };
+		A6408C1B1CEEFB8C00033A74 /* UberTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberTime.h; sourceTree = "<group>"; };
+		A6408C1C1CEEFB8C00033A74 /* UberTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberTime.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6408BE91CEED00F00033A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6408BE31CEED00F00033A74 = {
+			isa = PBXGroup;
+			children = (
+				A6408BEE1CEED00F00033A74 /* MyUber */,
+				A6408BED1CEED00F00033A74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6408BED1CEED00F00033A74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6408BEC1CEED00F00033A74 /* MyUber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6408BEE1CEED00F00033A74 /* MyUber */ = {
+			isa = PBXGroup;
+			children = (
+				A6408C061CEED99100033A74 /* classess */,
+				A6408BF21CEED00F00033A74 /* AppDelegate.h */,
+				A6408BF31CEED00F00033A74 /* AppDelegate.m */,
+				A6408BF51CEED00F00033A74 /* ViewController.h */,
+				A6408BF61CEED00F00033A74 /* ViewController.m */,
+				A6408BF81CEED00F00033A74 /* Main.storyboard */,
+				A6408BFB1CEED00F00033A74 /* Assets.xcassets */,
+				A6408BFD1CEED00F00033A74 /* LaunchScreen.storyboard */,
+				A6408C001CEED00F00033A74 /* Info.plist */,
+				A6408BEF1CEED00F00033A74 /* Supporting Files */,
+			);
+			path = MyUber;
+			sourceTree = "<group>";
+		};
+		A6408BEF1CEED00F00033A74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6408BF01CEED00F00033A74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6408C061CEED99100033A74 /* classess */ = {
+			isa = PBXGroup;
+			children = (
+				A6408C0A1CEED9D300033A74 /* Util */,
+				A6408C091CEED9C300033A74 /* Model */,
+				A6408C081CEED9B800033A74 /* View */,
+				A6408C071CEED9AA00033A74 /* Controller */,
+			);
+			path = classess;
+			sourceTree = "<group>";
+		};
+		A6408C071CEED9AA00033A74 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6408C0B1CEED9E300033A74 /* UberLoginWebViewController.h */,
+				A6408C0C1CEED9E300033A74 /* UberLoginWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A6408C081CEED9B800033A74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6408C091CEED9C300033A74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6408C111CEEFB8C00033A74 /* UberActivity.h */,
+				A6408C121CEEFB8C00033A74 /* UberActivity.m */,
+				A6408C131CEEFB8C00033A74 /* UberPrice.h */,
+				A6408C141CEEFB8C00033A74 /* UberPrice.m */,
+				A6408C151CEEFB8C00033A74 /* UberProduct.h */,
+				A6408C161CEEFB8C00033A74 /* UberProduct.m */,
+				A6408C171CEEFB8C00033A74 /* UberProfile.h */,
+				A6408C181CEEFB8C00033A74 /* UberProfile.m */,
+				A6408C191CEEFB8C00033A74 /* UberPromotion.h */,
+				A6408C1A1CEEFB8C00033A74 /* UberPromotion.m */,
+				A6408C1B1CEEFB8C00033A74 /* UberTime.h */,
+				A6408C1C1CEEFB8C00033A74 /* UberTime.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6408C0A1CEED9D300033A74 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A6408C0E1CEED9EB00033A74 /* UberAPI.h */,
+				A6408C0F1CEED9EB00033A74 /* UberAPI.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6408BEB1CEED00F00033A74 /* MyUber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6408C031CEED00F00033A74 /* Build configuration list for PBXNativeTarget "MyUber" */;
+			buildPhases = (
+				A6408BE81CEED00F00033A74 /* Sources */,
+				A6408BE91CEED00F00033A74 /* Frameworks */,
+				A6408BEA1CEED00F00033A74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyUber;
+			productName = MyUber;
+			productReference = A6408BEC1CEED00F00033A74 /* MyUber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6408BE41CEED00F00033A74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rayootech;
+				TargetAttributes = {
+					A6408BEB1CEED00F00033A74 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A6408BE71CEED00F00033A74 /* Build configuration list for PBXProject "MyUber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6408BE31CEED00F00033A74;
+			productRefGroup = A6408BED1CEED00F00033A74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6408BEB1CEED00F00033A74 /* MyUber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6408BEA1CEED00F00033A74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6408BFF1CEED00F00033A74 /* LaunchScreen.storyboard in Resources */,
+				A6408BFC1CEED00F00033A74 /* Assets.xcassets in Resources */,
+				A6408BFA1CEED00F00033A74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6408BE81CEED00F00033A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6408C221CEEFB8C00033A74 /* UberTime.m in Sources */,
+				A6408BF71CEED00F00033A74 /* ViewController.m in Sources */,
+				A6408C211CEEFB8C00033A74 /* UberPromotion.m in Sources */,
+				A6408BF41CEED00F00033A74 /* AppDelegate.m in Sources */,
+				A6408C1D1CEEFB8C00033A74 /* UberActivity.m in Sources */,
+				A6408C1E1CEEFB8C00033A74 /* UberPrice.m in Sources */,
+				A6408C101CEED9EB00033A74 /* UberAPI.m in Sources */,
+				A6408BF11CEED00F00033A74 /* main.m in Sources */,
+				A6408C201CEEFB8C00033A74 /* UberProfile.m in Sources */,
+				A6408C0D1CEED9E300033A74 /* UberLoginWebViewController.m in Sources */,
+				A6408C1F1CEEFB8C00033A74 /* UberProduct.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6408BF81CEED00F00033A74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6408BF91CEED00F00033A74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6408BFD1CEED00F00033A74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6408BFE1CEED00F00033A74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6408C011CEED00F00033A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6408C021CEED00F00033A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6408C041CEED00F00033A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyUber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyyt.MyUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6408C051CEED00F00033A74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyUber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyyt.MyUber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6408BE71CEED00F00033A74 /* Build configuration list for PBXProject "MyUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6408C011CEED00F00033A74 /* Debug */,
+				A6408C021CEED00F00033A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6408C031CEED00F00033A74 /* Build configuration list for PBXNativeTarget "MyUber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6408C041CEED00F00033A74 /* Debug */,
+				A6408C051CEED00F00033A74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6408BE41CEED00F00033A74 /* Project object */;
+}
